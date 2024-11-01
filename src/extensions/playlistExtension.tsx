@@ -381,3 +381,7 @@ const initPlaylistPageLogic = () => {
 };
 
 initPlaylistPageLogic();
+
+Spicetify.Platform.History.listen(() => {
+    initPlaylistPageLogic();
+});

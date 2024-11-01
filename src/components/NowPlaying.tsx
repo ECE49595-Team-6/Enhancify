@@ -140,11 +140,12 @@ class NowPlaying extends React.Component<{}, {audioFeatures: AudioFeaturesRespon
       backgroundColor: "rgba(0, 0, 0, 0.70)",
     },
     content: {
-      position: 'relative',
-      top:      '60px',
-      left:     '27.5%',
-      width:    "550px",
-      height:   "610px",
+      position:  'absolute',
+      top:       '40%',
+      left:      '47%',
+      transform: 'translate(-50%, -50%)',
+      width:     "33%",
+      height:    "65%",
     },
   }
 
@@ -153,11 +154,12 @@ class NowPlaying extends React.Component<{}, {audioFeatures: AudioFeaturesRespon
       backgroundColor: "rgba(0, 0, 0, 0.70)",
     },
     content: {
-      position: 'relative',
-      top:      '55px',
-      left:     '21.5%',
-      width:    "800px",
-      height:   "600px"
+      position:  'absolute',
+      top:       '43%',
+      left:      '47%',
+      transform: 'translate(-50%, -50%)',
+      width:     "50%",
+      height:    "600px"
     },
   }
 

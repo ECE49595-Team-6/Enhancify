@@ -305,6 +305,8 @@
 .sectionHeaderContainer {
   display: flex;
   align-items: center;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .settingsIconContainer:hover {
@@ -327,8 +329,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  row-gap: 13px;
-  column-gap: 10px;
+  row-gap: 5px;
+  column-gap: 5px;
 }
 
 

@@ -49,7 +49,7 @@ class RecommendationsModal extends React.Component<{setModalIsOpen: (value: bool
             <img className={styles.playIcon} style={{marginLeft: "auto"}} src={"https://img.icons8.com/?size=100&id=6483&format=png&color=FFFFFF"} 
                   onClick={() => this.props.setModalIsOpen(false)}/>
         </div>
-        <div className={styles.settingContainer} style={{paddingLeft: "0", marginBottom: "30px"}}>
+        <div className={styles.settingContainer} style={{paddingLeft: "0", marginBottom: "20px"}}>
           {Object.keys(this.props.selectedMetrics).map((metric_name) => <div className={styles.recommendationTarget} style={{marginRight: "10px",
                                                                                                                            }}>
                                                                           {metric_name}
